@@ -2,7 +2,7 @@
   "name": "contextually",
 	"displayName": "Contextually",
 	"description": "Add your own when clause contexts in settings.json!",
-	"publisher": "WaleedDahshan",
+	"publisher": "wmstack",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.68.0"
