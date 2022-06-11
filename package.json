@@ -13,6 +13,8 @@
         "*"
 	],
 	"main": "./dist/extension.js",
+	"repository": {"type": "git", "url": "https://github.com/wmstack/contextually"},
+	"license": "MIT",
 	"contributes": {
 		"commands": [
 		]
