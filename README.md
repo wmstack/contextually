@@ -5,13 +5,11 @@ A vscode extension which enables you to create your own contexts.
 ## How to use
 Go to `settings.json`, and then add a `contextually.contexts` element as follows:
 ```json
-
-  "contextually.contexts": [
-    "Normal",
-    "Insert",
-    "Random",
-  ]
-
+"contextually.contexts": [
+  "Normal",
+  "Insert",
+  "Random",
+]
 ```
 
 Then reload vscode, and then you will be able to use these contexts to configure your
