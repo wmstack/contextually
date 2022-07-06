@@ -7,7 +7,6 @@ Go to `settings.json`, and then add a `contextually.contexts` element as follows
 ```json
 "contextually.contexts": [
   "Normal",
-  "Insert",
   "Random",
 ]
 ```
