@@ -16,7 +16,7 @@ you add them as when clause contexts in the `keybindings.json`:
 /* you have to bind escape externally to caps-lock, which can't be done via vscode */
 {
   "key": "escape",
-  "command": "contextually.toggleNormal"
+  "command": "contextually.turnOnNormal"
 },
 {
   "key": "j",
@@ -36,11 +36,6 @@ you add them as when clause contexts in the `keybindings.json`:
 {
   "key": "l",
   "command": "cursorRight",
-  "when": "textInputFocus && Normal"
-},
-{
-  "key": "i",
-  "command": "contextually.turnOffNormal",
   "when": "textInputFocus && Normal"
 },
 {
