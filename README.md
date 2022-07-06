@@ -15,6 +15,7 @@ Then reload vscode, and then you will be able to use these contexts to configure
 keybindings. The contexts are named as they are in the array of contexts. That is,
 those will be the names when you add them as when clause contexts in the `keybindings.json`:
 ```json
+/* you have to bind escape externally to caps-lock, which can't be done via vscode */
 {
   "key": "escape",
   "command": "contextually.toggleNormal"
@@ -37,6 +38,16 @@ those will be the names when you add them as when clause contexts in the `keybin
 {
   "key": "l",
   "command": "cursorRight",
+  "when": "textInputFocus && Normal"
+},
+{
+  "key": "i",
+  "command": "contextually.turnOffNormal",
+  "when": "textInputFocus && Normal"
+},
+{
+  "key": "i",
+  "command": "contextually.turnOffNormal",
   "when": "textInputFocus && Normal"
 }
 ```
