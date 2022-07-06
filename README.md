@@ -3,7 +3,7 @@
 A vscode extension which enables you to create your own contexts.
 
 ## How to use
-Go to `settings.json`, and then add a `contextually.contexts` element as follows:
+Go to `settings.json` via `alt+s`, and then add a `contextually.contexts` element as follows:
 ```json5
 "contextually.contexts": [
   "Normal"
