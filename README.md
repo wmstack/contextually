@@ -18,7 +18,7 @@ Then reload vscode, and then you will be able to use these contexts to configure
 keybindings. The contexts are named as they are in the array of contexts. That is, go
 to keybindings.json and then add  this:
 
-```
+```json
 {
   "key": "escape",
   "command": "contextually.toggleNormal"
