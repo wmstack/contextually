@@ -13,7 +13,9 @@
 
 * install the recommended extensions (amodio.tsl-problem-matcher and dbaeumer.vscode-eslint)
 
-
+<!-- ? How do we need to solve this problem. Is there something that we can do in order to fix the issue without the user having to solve a physical problem? Is this a major moocha problemo that we are currently facing right now? -->
+<!-- * Wow -->
+<!-- ! This is a great big warning! -->
 ## Get up and running straight away
 
 * Press `F5` to open a new window with your extension loaded.
