@@ -6,7 +6,14 @@ A vscode extension which enables you to create your own contexts.
 Go to `settings.json` via `alt+s`, and then add a `contextually.contexts` element as follows:
 ```json5
 "contextually.contexts": [
-  "Normal"
+  {
+    "name": "Normal",
+    "initial": false,
+    "map": [
+      [false, "line", "$(notebook-edit)"],
+      [true, "block", "$(debug-gripper)"]
+    ]
+  }
 ]
 ```
 Then reload vscode, and then you will be able to use these contexts to configure your keybindings.
